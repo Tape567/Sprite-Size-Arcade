@@ -1,7 +1,9 @@
-//% blockNamespace="SpriteGrowth" color="#4B0082" icon="\uf1b2"
-//% weight=100
-namespace spriteSize {...}
-//% block="scale %sprite(mySprite) by %factor"
+//% block="Sprite Size"
+//% blockNamespace="spriteSize"
+//% color="#4C97FF"
+//% icon="\uf1b2"
+namespace spriteSize {
+
     /**
      * Grows the sprite by a certain number of pixels in width and height.
      * @param sprite the sprite to grow
@@ -9,7 +11,6 @@ namespace spriteSize {...}
      */
     //% blockId="grow_sprite"
     //% block="grow %sprite(mySprite) by %byPixels px"
-    //% byPixels.min=1 byPixels.max=64
     //% group="Size"
     export function grow(sprite: Sprite, byPixels: number): void {
         let img = sprite.image.clone();
@@ -29,7 +30,6 @@ namespace spriteSize {...}
      */
     //% blockId="shrink_sprite"
     //% block="shrink %sprite(mySprite) by %byPixels px"
-    //% byPixels.min=1 byPixels.max=64
     //% group="Size"
     export function shrink(sprite: Sprite, byPixels: number): void {
         let img = sprite.image.clone();
@@ -39,7 +39,4 @@ namespace spriteSize {...}
         newImg.drawImage(img, -(byPixels >> 1), -(byPixels >> 1));
         sprite.setImage(newImg);
     }
-}//% blockId="grow_sprite"
-//% block="grow %sprite(mySprite) by %byPixels px"
-//% group="Size"
-export function grow(sprite: Sprite, byPixels: number): void { ... }
+}
