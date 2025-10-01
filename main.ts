@@ -1,4 +1,4 @@
-//% blockNamespace="sprites" color="#4C97FF" icon="\uf1b2"
+//% blockNamespace="SpriteGrowth" color="#4C97FF" icon="\uf1b2"
 //% weight=100
 namespace spriteSize {
 
