@@ -1,7 +1,7 @@
 //% blockNamespace="SpriteGrowth" color="#4C97FF" icon="\uf1b2"
 //% weight=100
 namespace spriteSize {
-
+//% block="scale %sprite(mySprite) by %factor"
     /**
      * Grows the sprite by a certain number of pixels in width and height.
      * @param sprite the sprite to grow
