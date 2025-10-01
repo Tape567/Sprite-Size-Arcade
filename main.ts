@@ -39,4 +39,7 @@ namespace spriteSize {
         newImg.drawImage(img, -(byPixels >> 1), -(byPixels >> 1));
         sprite.setImage(newImg);
     }
-}
+}//% blockId="grow_sprite"
+//% block="grow %sprite(mySprite) by %byPixels px"
+//% group="Size"
+export function grow(sprite: Sprite, byPixels: number): void { ... }
