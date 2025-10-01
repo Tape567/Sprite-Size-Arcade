@@ -1,0 +1,16 @@
+{
+    "name": "sprite-size-arcade",
+    "description": "An extension for growing and shrinking sprites in MakeCode Arcade.",
+    "dependencies": {
+        "arcade": "*"
+    },
+    "files": [
+        "main.ts"
+    ],
+    "public": true,
+    "target": "arcade",
+    "targetId": "arcade",
+    "supportedTargets": [
+        "arcade"
+    ]
+}
