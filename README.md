@@ -1,0 +1,1 @@
+This extension can be used for sizing your sprites. The steps for use are shown in the descrpition. Use ONLY in MakeCode Arcade in block form (or if possible, javascript or python) Enjoy! There's not much here, because this is my first one. Just lettin' ya know.
